@@ -1,0 +1,16 @@
+<repertoire>
+	<outil id="10000">
+		<nom>AIGUILLE 001 - Aiguille Jaune 30m</nom>
+		<possesseur>none</possesseur>
+		<date>22/09/20 09:31:15 +0000</date>
+		<date_controle>28/09/2020</date_controle>
+		<date_controle_expiration>28/11/2020</date_controle_expiration>
+	</outil>
+	<outil id="10007">
+		<nom>AIGUILLE 002 - Aiguille Rouge 50m/6mm</nom>
+		<possesseur>none</possesseur>
+		<date>23/03/21 15:11:53 +0000</date>
+		<date_controle>28/09/2020</date_controle>
+		<date_controle_expiration>29/10/2020</date_controle_expiration>
+	</outil>
+</repertoire>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<personnel id="vhxuin">
+		<name>BENOIT</name>
+		<auth>utilisateur</auth>
+		<mail>mail@gmail.com</mail>
+	</personnel>
+	<personnel id="dqcmaw">
+		<name>VALENTIN</name>
+		<auth>admin</auth>
+		<mail>mail@gmail.com</mail>
+	</personnel>
+</repertoire>
