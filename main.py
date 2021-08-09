@@ -519,7 +519,7 @@ class PageAdmin(tk.Frame):
         global path_prog
 
         controller.send_mail(send_from= mail_systeme,
-        subject= "Sauvegarde du magasin - " + strftime("%d/%m/%y %H:%M"),
+        subject= "Sauvegarde - " + nom_magasin + " - " + strftime("%d/%m/%y %H:%M"),
         text="",
         send_to= mail_systeme,
         files= [path_prog + 'outil.xml', path_prog + 'personnel.xml',path_prog +  'log.txt',path_prog +  'config.ini'])
