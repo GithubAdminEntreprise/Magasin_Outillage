@@ -45,7 +45,7 @@ id_admin = ''
 
 path_prog = "/home/pi/Documents/prog/"
 duree_ouverture_gachette = 10*1000
-reset_to_page_accueil = 5*60*1000
+# reset_to_page_accueil = 5*60*1000
 
 class SeaofBTCapp(tk.Tk):
 
@@ -143,7 +143,7 @@ class SeaofBTCapp(tk.Tk):
                             self.frames[PageOne].text.set('Nom: '+id_user)
 
                             #on reset le système au bout de 5 min
-                            self.after(reset_to_page_accueil, self.reset)
+                            #self.after(reset_to_page_accueil, self.reset)
 
                             #on verrouille la gache automatiquement au bout de 30sec
                             self.after(duree_ouverture_gachette, self.lock)
