@@ -104,7 +104,7 @@ if os.path.isfile(path_prog + 'outil.xml'):
                 send_mail(send_from= mail_systeme,
                 subject=message,
                 text="",
-                send_to= [mail_systeme, mail_possesseur],
+                send_to= [mail_magasinier, mail_possesseur],
                 files= [])
 
 
