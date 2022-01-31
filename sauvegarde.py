@@ -73,5 +73,5 @@ for txt_files_i in txt_files:
 send_mail(send_from = mail_systeme,
 subject= "Sauvegarde journalière " + nom_magasin +" du " + strftime("%d/%m/%y %H:%M"),
 text="",
-send_to= mail_magasinier ,
+send_to= mail_systeme ,
 files= list_files)                  
